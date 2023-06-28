@@ -79,7 +79,6 @@
     border-radius: 40px;
   }
   .bar {
-    
     display: flex;
     flex-direction: column;
     height: 92vh;
@@ -87,10 +86,11 @@
     border-radius: 30px;
   }
   .botones{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
     gap: 0.7em;
-    margin-top: 33%;
   }
   .barTitle{
   font-family: Arial, sans-serif;
