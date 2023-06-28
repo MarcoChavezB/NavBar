@@ -6,28 +6,28 @@
           <div class="bar">
             <div class="botones">
               <h1 class="barTitle">Menu</h1>
-              <div class="boton-label"><button class="b1"></button>
+              <div class="boton-label"><button class="b1"> <icono_home/></button>
                 <label for="b1">Home</label>
               </div> 
-              <div class="boton-label"><button class="b2"></button>
+              <div class="boton-label"><button class="b2"> <icono_uploads/></button>
                 <label for="b2">Uploads</label>
               </div> 
-              <div class="boton-label"><button class="b3"></button>
+              <div class="boton-label"><button class="b3"> <icono_message/></button>
                 <label for="b3">Messages</label>
               </div> 
-              <div class="boton-label"><button class="b4"></button>
+              <div class="boton-label"><button class="b4"> <icono_storage/></button>
                 <label for="b4">Storage</label>
               </div> 
-              <div class="boton-label"><button class="b5"></button>
+              <div class="boton-label"><button class="b5"> <icono_media/></button>
                 <label for="b5">Media</label>
               </div> 
-              <div class="boton-label"><button class="b6"></button>
+              <div class="boton-label"><button class="b6"> <icono_apps/></button>
                 <label for="b6">Apps</label>
               </div> 
-              <div class="boton-label"><button class="b7"></button>
+              <div class="boton-label"><button class="b7"> <icono_cloud/></button>
                 <label for="b7">Cloud</label>
               </div> 
-              <div class="boton-label"><button class="b8"></button>
+              <div class="boton-label"><button class="b8"> <icono_trash/></button>
                 <label for="b8">Trash</label>
               </div> 
             </div>
@@ -43,6 +43,16 @@
   </div>
 </template>
 
+<script setup>
+import icono_message from './components/icons/icono_message.vue';
+import icono_apps from './components/icons/icono_apps.vue';
+import icono_cloud from './components/icons/icono_cloud.vue';
+import icono_home from './components/icons/icono_home.vue';
+import icono_media from './components/icons/icono_media.vue';
+import icono_storage from './components/icons/icono_storage.vue';
+import icono_trash from './components/icons/icono_trash.vue';
+import icono_uploads from './components/icons/icono_uploads.vue';
+</script>
 <style scoped>
 
   .app{
@@ -99,10 +109,10 @@
 
   }
   button {
+    background-color: #dbe798;
     border-radius: 13px;
     width: 3.5em;
     height: 3.5em;
-    background-color: transparent;
     border: 2px solid  white;
     transition: transform 0.3s, margin-left 0.3s;
     margin-right: 0.5em;
