@@ -1,12 +1,13 @@
 <template>
   <div class="app">
     <div class="nav">
-      <h1>hola mundo</h1>
+      <h1></h1>
     </div>
   </div>
 </template>
 
 <style scoped>
+
   .app{
     display: grid;
     grid-template-columns: 15% 90%;
@@ -18,7 +19,9 @@
   }
   .nav{
     position: absolute;
-    background-color: azure;
-    height: 100vh;
+    width: 7em;
+    border-radius: 40px;
+    background-color: #1a212a;
+    height: 99vh;
   }
 </style>
