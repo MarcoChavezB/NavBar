@@ -77,12 +77,12 @@ import icono_uploads from './components/icons/icono_uploads.vue';
     margin-top: 1.2em;
     margin-right: 1.2em;
     height: 96%;
-    width: 28%;
+    width: 20%;
   }
 
   .nav{
     height: 96%;
-    width: 65%;
+    width: 75%;
     margin-top: 1.2em;
     margin-right: 1.2em;
     background-color: white;
@@ -109,7 +109,7 @@ import icono_uploads from './components/icons/icono_uploads.vue';
 
   }
   button {
-    background-color: #dbe798;
+    background-color: #cdda84;
     border-radius: 13px;
     width: 3.5em;
     height: 3.5em;
