@@ -59,7 +59,7 @@
     height: 96vh;
     width: 124em;
     border-radius: 40px;
-    background-color: #929f59;
+    background-color: #89993f;
     margin-bottom: 1em;
   }
 
@@ -67,7 +67,7 @@
     margin-top: 1.2em;
     margin-right: 1.2em;
     height: 96%;
-    width: 30%;
+    width: 28%;
   }
 
   .nav{
