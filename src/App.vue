@@ -27,7 +27,7 @@
               <div class="boton-label"><button class="b7"> <icono_cloud/></button>
                 <label for="b7">Cloud</label>
               </div> 
-              <div class="boton-label"><button class="b8"> <icono_trash/></button>
+              <div class="boton-label"><button class="b8"> <icono_trash/> </button>
                 <label for="b8">Trash</label>
               </div> 
             </div>
