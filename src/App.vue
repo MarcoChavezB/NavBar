@@ -6,7 +6,7 @@
           <div class="bar">
             <div class="botones">
               <h1 class="barTitle">Menu</h1>
-              <div class="boton-label"><button class="b1"> <icono_home/></button>
+              <div class="boton-label"><button class="b1"> <icono_home :class="brillo"/></button>
                 <label for="b1">Home</label>
               </div> 
               <div class="boton-label"><button class="b2"> <icono_uploads/></button>
@@ -99,9 +99,9 @@ import icono_uploads from './components/icons/icono_uploads.vue';
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: space-between;
     gap: 0.7em;
   }
+
   .barTitle{
   font-family: Arial, sans-serif;
   font-size: 23px;
@@ -121,7 +121,9 @@ import icono_uploads from './components/icons/icono_uploads.vue';
     background-color: white;
     transform: scale(1.3);
     margin-left: -1em;
+    
   }
+
   .boton-label {
   display: flex;
   align-items: center;
